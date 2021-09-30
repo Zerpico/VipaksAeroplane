@@ -1,0 +1,184 @@
+﻿<Page x:Class="VipaksAeroplane.Views.Pages.PlanePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:VipaksAeroplane.Views.Pages"
+      xmlns:ext="clr-namespace:VipaksAeroplane.Extensions"
+      xmlns:chart="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+      mc:Ignorable="d" 
+      xmlns:viewModels="clr-namespace:VipaksAeroplane.ViewModels"
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PlanePage"
+      d:DataContext="{d:DesignInstance Type=viewModels:PlanePageViewModel, IsDesignTimeCreatable=False}" 
+      >
+    <Page.Resources>
+        <ext:EnumDescriptionConverter x:Key="enumConverter"/>
+    </Page.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80" />
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="4*"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+
+
+        <!-- Верхняя панель -->
+        <Grid Grid.Row="0" Grid.ColumnSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="4*"/>
+                <ColumnDefinition Width="4*"/>
+            </Grid.ColumnDefinitions>
+
+
+            <!-- Панель информации о последнем рейсе -->
+            <GroupBox Foreground="Maroon" Margin="5,0" Header="Информации о последнем рейсе" Grid.Row="0" Grid.Column="0">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="auto"/>
+                    </Grid.ColumnDefinitions>
+                    <StackPanel VerticalAlignment="Bottom" Margin="5" HorizontalAlignment="Left" Orientation="Horizontal" Grid.Column="0">
+                        <StackPanel Margin="0,0,5,0" Width="80">
+                            <TextBlock FontSize="16" Foreground="Gray" >Рейс</TextBlock>
+                            <TextBlock FontSize="16" Foreground="Black" Text="{Binding LastFligh.Name}"/>
+                        </StackPanel>
+                        <StackPanel Margin="5,0" Width="80">
+                            <TextBlock FontSize="16" Foreground="Gray" >Прибытие</TextBlock>
+                            <TextBlock FontSize="16" Foreground="Black" Text="{Binding LastFligh.DateDestination,StringFormat='HH:mm'}"/>
+                        </StackPanel>
+                        <StackPanel Margin="5,0" Width="140">
+                            <TextBlock FontSize="16" Foreground="Gray" >Откуда</TextBlock>
+                            <TextBlock FontSize="16" Foreground="Black" Text="{Binding LastFligh.Departure.CityName}"/>
+                        </StackPanel>
+                        <StackPanel Margin="5,0" Width="140">
+                            <TextBlock FontSize="16" Foreground="Gray" >Куда</TextBlock>
+                            <TextBlock FontSize="16" Foreground="Black" Text="{Binding LastFligh.Destination.CityName}"/>
+                        </StackPanel>
+                        <StackPanel Margin="5,0" Width="120">
+                            <TextBlock FontSize="16" Foreground="Gray">Статус</TextBlock>
+                            <TextBlock FontSize="16" Foreground="Black" Text="{Binding LastFligh.Status, Converter={StaticResource enumConverter}}"/>
+                        </StackPanel>
+
+                    </StackPanel>
+
+                </Grid>
+            </GroupBox>
+
+            <!-- Панель текущего времени -->
+            <GroupBox Margin="5,0" Foreground="Maroon" Grid.Column="1" Grid.Row="0" Header="Текущие дата/время">
+                <DockPanel>
+                    <StackPanel Margin="5" VerticalAlignment="Bottom" HorizontalAlignment="Left" >
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock  FontSize="16" Foreground="Gray">Скорость имитации</TextBlock>
+                            <TextBlock Margin="10,0,0,0" FontSize="16" Foreground="#FF937979" Text="{Binding Value, ElementName=SliderTime}" />
+                        </StackPanel>
+                        <Slider x:Name="SliderTime" HorizontalAlignment="Left" Minimum="1" Width="200" Maximum="10000" Margin="0,3,0,0" Value="{Binding StepTimer}"/>
+                    </StackPanel>
+                    <StackPanel Margin="5" HorizontalAlignment="Right" VerticalAlignment="Bottom" Grid.Column="1">
+                        <TextBlock FontFamily="Tahoma" HorizontalAlignment="Right" FontWeight="Medium" 
+                               Foreground="#FF0A4718" FontSize="20" Text="{Binding RealDateTime, 
+                                UpdateSourceTrigger=PropertyChanged, StringFormat='dd.MM.yyyy'}"/>
+                        <TextBlock FontFamily="Tahoma" HorizontalAlignment="Right" FontWeight="Medium" 
+                               Foreground="#FF0D4A57" FontSize="20" Text="{Binding RealDateTime, 
+                                UpdateSourceTrigger=PropertyChanged, StringFormat='HH:mm:ss'}"/>
+                    </StackPanel>
+                </DockPanel>
+            </GroupBox>
+        </Grid>
+
+        <!-- Статус бар-->
+        <StatusBar x:Name="statusBar" BorderThickness="0,1,0,0" BorderBrush="#C6C6C6" Background="#FFEFF3F3" Grid.Row="3" Grid.ColumnSpan="3">
+            <StatusBar.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="auto"/>
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+                </ItemsPanelTemplate>
+            </StatusBar.ItemsPanel>
+            <StackPanel x:Name="statusPanel1" Orientation="Horizontal">
+                <TextBlock x:Name="status_lbl" Foreground="#FF5D5D5D" Text=""/>
+            </StackPanel>
+
+
+        </StatusBar>
+
+        <Grid Grid.Column="0"  Grid.Row="1" Margin="3" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="53*"/>
+                <ColumnDefinition Width="192*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <TextBlock Grid.Row="0" FontSize="16" FontWeight="Medium" Margin="0,2" Foreground="#FF5263E2" Grid.Column="0">Прилёт</TextBlock>
+            <TextBlock Grid.Row="0" FontSize="16" FontWeight="Medium" Margin="0,2" Foreground="#FF5263E2" Grid.Column="1" Text="{Binding DestinationInProgress}"/>
+            <DataGrid Style="{StaticResource CustomDataGrid}" 
+                      FontSize="14"
+                      ColumnHeaderStyle="{StaticResource BlueDataGridColumnHeader}" 
+                      RowStyle="{StaticResource DataGridRowBlue}"
+                      CellStyle="{StaticResource DataGridCellBlue}"                      
+                      Background="#FFF8FCFF"  Grid.Row="1" Grid.ColumnSpan="2" 
+                      IsReadOnly="True"  ItemsSource="{Binding DestinationVoyage.View}"
+                      AutoGenerateColumns="False"> 
+                <DataGrid.Columns>
+                    <DataGridTextColumn  Binding="{Binding Name}"  Header="Рейс"/>
+                    <DataGridTextColumn  Binding="{Binding Status, Converter={StaticResource enumConverter}}" Header="Статус"/>
+                    <DataGridTextColumn  Binding="{Binding DateDestination, StringFormat=\{0:dd.MM  HH:mm\}}"  Header="Время&#x0a;прилёта"/>
+                    <DataGridTextColumn  Binding="{Binding Departure.CityName}" Header="Место&#x0a;Вылета" />
+                    <DataGridTextColumn  Binding="{Binding Destination.CityName}" Header="Место&#x0a;Назначения" />
+                    <DataGridTextColumn  Binding="{Binding Passenger}" Header="Пассажиры" />                    
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+
+        <Grid Grid.Column="1"  Grid.Row="1" Margin="3" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="53*"/>
+                <ColumnDefinition Width="192*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+
+            <TextBlock Grid.Row="0" FontWeight="Medium" FontSize="16" Margin="0,2" Grid.Column="0" Foreground="#FF3FC559">Вылет</TextBlock>
+            <TextBlock Grid.Row="0" FontWeight="Medium" FontSize="16" Margin="0,2" Grid.Column="1" Foreground="#FF3FC559" Text="{Binding DepartureInProgress}"/>
+
+            <DataGrid Style="{StaticResource CustomDataGrid}" 
+                      FontSize="14"
+                      ColumnHeaderStyle="{StaticResource GreenDataGridColumnHeader}" 
+                      RowStyle="{StaticResource DataGridRowGreen}"
+                      CellStyle="{StaticResource DataGridCellGreen}"                      
+                      Background="#FFF8FFFC"  Grid.Row="1" Grid.ColumnSpan="2" 
+                      IsReadOnly="True"  ItemsSource="{Binding DepartureVoyage.View}"
+                      AutoGenerateColumns="False">
+                <DataGrid.Columns>
+                    <DataGridTextColumn  Binding="{Binding Name}"  Header="Рейс"/>
+                    <DataGridTextColumn  Binding="{Binding Status, Converter={StaticResource enumConverter}}" Header="Статус"/>
+                    <DataGridTextColumn  Binding="{Binding DateStart, StringFormat=\{0:dd.MM  HH:mm\}}"  Header="Время&#x0a;вылета"/>                    
+                    <DataGridTextColumn  Binding="{Binding Departure.CityName}" Header="Место&#x0a;Вылета" />
+                    <DataGridTextColumn  Binding="{Binding Destination.CityName}" Header="Место&#x0a;Назначения" />
+                    <DataGridTextColumn  Binding="{Binding Passenger}" Header="Пассажиры" />                    
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+
+        <Grid Grid.ColumnSpan="2" Grid.Row="2">
+            <chart:CartesianChart Series="{Binding Series}" >              
+                <chart:CartesianChart.AxisX >
+                    <chart:Axis LabelFormatter="{Binding Formatter}"></chart:Axis>
+                </chart:CartesianChart.AxisX>
+            </chart:CartesianChart>
+        </Grid>
+    </Grid>
+</Page>

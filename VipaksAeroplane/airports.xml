@@ -1,0 +1,705 @@
+<?xml version="1.0"?>
+<ArrayOfAirportInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AirportInfo>
+    <CodeIATA>ABA</CodeIATA>
+    <CodeICAO>UNAA</CodeICAO>
+    <CodeInternal>АБН</CodeInternal>
+    <AirportClass>Б</AirportClass>
+    <AirportName>Абакан</AirportName>
+    <CityName>Абакан</CityName>
+    <RegionName>Хакасия</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>DYR</CodeIATA>
+    <CodeICAO>UHMA</CodeICAO>
+    <CodeInternal>АНЫ</CodeInternal>
+    <AirportClass>А</AirportClass>
+    <AirportName>Анадырь (Угольный)</AirportName>
+    <CityName>Анадырь</CityName>
+    <RegionName>Чукотский АО</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>AAQ</CodeIATA>
+    <CodeICAO>URKA</CodeICAO>
+    <CodeInternal>АНА</CodeInternal>
+    <AirportClass>В</AirportClass>
+    <AirportName>Анапа (Витязево)</AirportName>
+    <CityName>Анапа</CityName>
+    <RegionName>Краснодарский край</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>ARH</CodeIATA>
+    <CodeICAO>ULAA</CodeICAO>
+    <CodeInternal>АХГ</CodeInternal>
+    <AirportClass>В</AirportClass>
+    <AirportName>Архангельск (Талаги)</AirportName>
+    <CityName>Архангельск</CityName>
+    <RegionName>Архангельская область</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>ASF</CodeIATA>
+    <CodeICAO>URWA</CodeICAO>
+    <CodeInternal>АСР</CodeInternal>
+    <AirportClass>Б</AirportClass>
+    <AirportName>Астрахань (Нариманово)</AirportName>
+    <CityName>Астрахань</CityName>
+    <RegionName>Астраханская область</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>BAX</CodeIATA>
+    <CodeICAO>UNBB</CodeICAO>
+    <CodeInternal>БАН</CodeInternal>
+    <AirportClass>В</AirportClass>
+    <AirportName>Барнаул (Михайловка)</AirportName>
+    <CityName>Барнаул</CityName>
+    <RegionName>Алтайский край</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>EGO</CodeIATA>
+    <CodeICAO>UUOB</CodeICAO>
+    <CodeInternal>БЕД</CodeInternal>
+    <AirportClass>В</AirportClass>
+    <AirportName>Белгород</AirportName>
+    <CityName>Белгород</CityName>
+    <RegionName>Белгородская область</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>BQS</CodeIATA>
+    <CodeICAO>UHBB</CodeICAO>
+    <CodeInternal>БГЩ</CodeInternal>
+    <AirportClass>В</AirportClass>
+    <AirportName>Благовещенск (Игнатьево)</AirportName>
+    <CityName>Благовещенск</CityName>
+    <RegionName>Амурская область</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>BTK</CodeIATA>
+    <CodeICAO>UIBB</CodeICAO>
+    <CodeInternal>БРС</CodeInternal>
+    <AirportClass>Б</AirportClass>
+    <AirportName>Братск</AirportName>
+    <CityName>Братск</CityName>
+    <RegionName>Иркутская область</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>BZK</CodeIATA>
+    <CodeICAO>UUBP</CodeICAO>
+    <CodeInternal>БРЯ</CodeInternal>
+    <AirportClass>В</AirportClass>
+    <AirportName>Брянск</AirportName>
+    <CityName>Брянск</CityName>
+    <RegionName>Брянская область</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>VRI</CodeIATA>
+    <CodeICAO>ULDW</CodeICAO>
+    <CodeInternal>ВРЙ</CodeInternal>
+    <AirportClass>Г</AirportClass>
+    <AirportName>Варандей</AirportName>
+    <CityName>Варандей</CityName>
+    <RegionName>Ненецкий АО</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>VVO</CodeIATA>
+    <CodeICAO>UHWW</CodeICAO>
+    <CodeInternal>ВВО</CodeInternal>
+    <AirportClass>А</AirportClass>
+    <AirportName>Владивосток (Кневичи)</AirportName>
+    <CityName>Владивосток</CityName>
+    <RegionName>Приморский край</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>OGZ</CodeIATA>
+    <CodeICAO>URMO</CodeICAO>
+    <CodeInternal>ВЛА</CodeInternal>
+    <AirportClass>В</AirportClass>
+    <AirportName>Владикавказ (Беслан)</AirportName>
+    <CityName>Владикавказ</CityName>
+    <RegionName>Северная Осетия</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>VOG</CodeIATA>
+    <CodeICAO>URWW</CodeICAO>
+    <CodeInternal>ВГГ</CodeInternal>
+    <AirportClass>В</AirportClass>
+    <AirportName>Волгоград (Гумрак)</AirportName>
+    <CityName>Волгоград</CityName>
+    <RegionName>Волгоградская область</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>VOZ</CodeIATA>
+    <CodeICAO>UUOO</CodeICAO>
+    <CodeInternal>ВРН</CodeInternal>
+    <AirportClass>В</AirportClass>
+    <AirportName>Воронеж (имени Петра Первого)</AirportName>
+    <CityName>Воронеж</CityName>
+    <RegionName>Воронежская область</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>GRV</CodeIATA>
+    <CodeICAO>URMG</CodeICAO>
+    <CodeInternal>ГРН</CodeInternal>
+    <AirportClass>В</AirportClass>
+    <AirportName>Грозный (Северный)</AirportName>
+    <CityName>Грозный</CityName>
+    <RegionName>Чеченская Республика</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>SVX</CodeIATA>
+    <CodeICAO>USSS</CodeICAO>
+    <CodeInternal>КЛЦ</CodeInternal>
+    <AirportClass>Б</AirportClass>
+    <AirportName>Екатеринбург (Кольцово)</AirportName>
+    <CityName>Екатеринбург</CityName>
+    <RegionName>Свердловская область</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>ZIA</CodeIATA>
+    <CodeICAO>UUBW</CodeICAO>
+    <CodeInternal>РНЦ</CodeInternal>
+    <AirportClass>А</AirportClass>
+    <AirportName>Жуковский (Раменское)</AirportName>
+    <CityName>Москва</CityName>
+    <RegionName />
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>IKT</CodeIATA>
+    <CodeICAO>UIII</CodeICAO>
+    <CodeInternal>ИКТ</CodeInternal>
+    <AirportClass>Б</AirportClass>
+    <AirportName>Иркутск</AirportName>
+    <CityName>Иркутск</CityName>
+    <RegionName>Иркутская область</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>KZN</CodeIATA>
+    <CodeICAO>UWKD</CodeICAO>
+    <CodeInternal>КЗН</CodeInternal>
+    <AirportClass>А</AirportClass>
+    <AirportName>Казань</AirportName>
+    <CityName>Казань</CityName>
+    <RegionName>Татарстан</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>KGD</CodeIATA>
+    <CodeICAO>UMKK</CodeICAO>
+    <CodeInternal>КЛД</CodeInternal>
+    <AirportClass>В</AirportClass>
+    <AirportName>Калининград (Храброво)</AirportName>
+    <CityName>Калининград</CityName>
+    <RegionName>Калининградская область</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>KLF</CodeIATA>
+    <CodeICAO>UUBC</CodeICAO>
+    <CodeInternal>КЛГ</CodeInternal>
+    <AirportClass>В</AirportClass>
+    <AirportName>Калуга (Грабцево)</AirportName>
+    <CityName>Калуга</CityName>
+    <RegionName>Калужская область</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>KEJ</CodeIATA>
+    <CodeICAO>UNEE</CodeICAO>
+    <CodeInternal>КРВ</CodeInternal>
+    <AirportClass>Б</AirportClass>
+    <AirportName>Кемерово</AirportName>
+    <CityName>Кемерово</CityName>
+    <RegionName>Кемеровская область</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>KRR</CodeIATA>
+    <CodeICAO>URKK</CodeICAO>
+    <CodeInternal>КПА</CodeInternal>
+    <AirportClass>Б</AirportClass>
+    <AirportName>Краснодар (Пашковский)</AirportName>
+    <CityName>Краснодар</CityName>
+    <RegionName>Краснодарский край</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>KJA</CodeIATA>
+    <CodeICAO>UNKL</CodeICAO>
+    <CodeInternal>ЕМВ</CodeInternal>
+    <AirportClass>А</AirportClass>
+    <AirportName>Красноярск (Емельяново)</AirportName>
+    <CityName>Красноярск</CityName>
+    <RegionName>Красноярский край</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>KRO</CodeIATA>
+    <CodeICAO>USUU</CodeICAO>
+    <CodeInternal>КГН</CodeInternal>
+    <AirportClass>В</AirportClass>
+    <AirportName>Курган</AirportName>
+    <CityName>Курган</CityName>
+    <RegionName>Курганская область</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>URS</CodeIATA>
+    <CodeICAO>UUOK</CodeICAO>
+    <CodeInternal>КУС</CodeInternal>
+    <AirportClass>В</AirportClass>
+    <AirportName>Курск (Восточный)</AirportName>
+    <CityName>Курск</CityName>
+    <RegionName>Курская область</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>LPK</CodeIATA>
+    <CodeICAO>UUOL</CodeICAO>
+    <CodeInternal>ЛИП</CodeInternal>
+    <AirportClass>В</AirportClass>
+    <AirportName>Липецк</AirportName>
+    <CityName>Липецк</CityName>
+    <RegionName>Липецкая область</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>GDX</CodeIATA>
+    <CodeICAO>UHMM</CodeICAO>
+    <CodeInternal>МДС</CodeInternal>
+    <AirportClass>А</AirportClass>
+    <AirportName>Магадан (Сокол)</AirportName>
+    <CityName>Магадан</CityName>
+    <RegionName>Магаданская область</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>MQF</CodeIATA>
+    <CodeICAO>USCM</CodeICAO>
+    <CodeInternal>МГС</CodeInternal>
+    <AirportClass>Б</AirportClass>
+    <AirportName>Магнитогорск</AirportName>
+    <CityName>Магнитогорск</CityName>
+    <RegionName>Челябинская область</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>MCX</CodeIATA>
+    <CodeICAO>URML</CodeICAO>
+    <CodeInternal>МХЛ</CodeInternal>
+    <AirportClass>В</AirportClass>
+    <AirportName>Махачкала (Уйташ)</AirportName>
+    <CityName>Махачкала</CityName>
+    <RegionName>Дагестан</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>MRV</CodeIATA>
+    <CodeICAO>URMM</CodeICAO>
+    <CodeInternal>МРВ</CodeInternal>
+    <AirportClass>А</AirportClass>
+    <AirportName>Минеральные Воды</AirportName>
+    <CityName>Минеральные Воды</CityName>
+    <RegionName>Ставропольский край</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>VKO</CodeIATA>
+    <CodeICAO>UUWW</CodeICAO>
+    <CodeInternal>ВНК</CodeInternal>
+    <AirportClass>Б</AirportClass>
+    <AirportName>Москва (Внуково)</AirportName>
+    <CityName>Москва</CityName>
+    <RegionName />
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>DME</CodeIATA>
+    <CodeICAO>UUDD</CodeICAO>
+    <CodeInternal>ДМД</CodeInternal>
+    <AirportClass>Б</AirportClass>
+    <AirportName>Москва (Домодедово)</AirportName>
+    <CityName>Москва</CityName>
+    <RegionName />
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>SVO</CodeIATA>
+    <CodeICAO>UUEE</CodeICAO>
+    <CodeInternal>ШРМ</CodeInternal>
+    <AirportClass>А</AirportClass>
+    <AirportName>Москва (Шереметьево)</AirportName>
+    <CityName>Москва</CityName>
+    <RegionName />
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>MMK</CodeIATA>
+    <CodeICAO>ULMM</CodeICAO>
+    <CodeInternal>МУН</CodeInternal>
+    <AirportClass>В</AirportClass>
+    <AirportName>Мурманск</AirportName>
+    <CityName>Мурманск</CityName>
+    <RegionName>Мурманская область</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>NAL</CodeIATA>
+    <CodeICAO>URMN</CodeICAO>
+    <CodeInternal>НЧК</CodeInternal>
+    <AirportClass>Г</AirportClass>
+    <AirportName>Нальчик</AirportName>
+    <CityName>Нальчик</CityName>
+    <RegionName>Кабардино-Балкария</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>NJC</CodeIATA>
+    <CodeICAO>USNN</CodeICAO>
+    <CodeInternal>НЖВ</CodeInternal>
+    <AirportClass>Б</AirportClass>
+    <AirportName>Нижневартовск</AirportName>
+    <CityName>Нижневартовск</CityName>
+    <RegionName>Ханты-Мансийский АО</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>NBC</CodeIATA>
+    <CodeICAO>UWKE</CodeICAO>
+    <CodeInternal>НЖК</CodeInternal>
+    <AirportClass>В</AirportClass>
+    <AirportName>Нижнекамск (Бегишево)</AirportName>
+    <CityName>Нижнекамск</CityName>
+    <RegionName>Татарстан</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>GOJ</CodeIATA>
+    <CodeICAO>UWGG</CodeICAO>
+    <CodeInternal>НЖС</CodeInternal>
+    <AirportClass>Б-1</AirportClass>
+    <AirportName>Нижний Новгород (Стригино)</AirportName>
+    <CityName>Нижний Новгород</CityName>
+    <RegionName>Нижегородская область</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>NOZ</CodeIATA>
+    <CodeICAO>UNWW</CodeICAO>
+    <CodeInternal>НВК</CodeInternal>
+    <AirportClass>В</AirportClass>
+    <AirportName>Новокузнецк (Спиченково)</AirportName>
+    <CityName>Новокузнецк</CityName>
+    <RegionName>Кемеровская область</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>OVB</CodeIATA>
+    <CodeICAO>UNNT</CodeICAO>
+    <CodeInternal>ТЛЧ</CodeInternal>
+    <AirportClass>А</AirportClass>
+    <AirportName>Новосибирск (Толмачёво)</AirportName>
+    <CityName>Новосибирск</CityName>
+    <RegionName>Новосибирская область</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>OMS</CodeIATA>
+    <CodeICAO>UNOO</CodeICAO>
+    <CodeInternal>ОМС</CodeInternal>
+    <AirportClass>В</AirportClass>
+    <AirportName>Омск (Центральный)</AirportName>
+    <CityName>Омск</CityName>
+    <RegionName>Омская область</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>REN</CodeIATA>
+    <CodeICAO>UWOO</CodeICAO>
+    <CodeInternal>ОНГ</CodeInternal>
+    <AirportClass>В-1</AirportClass>
+    <AirportName>Оренбург (Центральный)</AirportName>
+    <CityName>Оренбург</CityName>
+    <RegionName>Оренбургская область</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>OSW</CodeIATA>
+    <CodeICAO>UWOR</CodeICAO>
+    <CodeInternal>ОСК</CodeInternal>
+    <AirportClass>В</AirportClass>
+    <AirportName>Орск</AirportName>
+    <CityName>Орск</CityName>
+    <RegionName>Оренбургская область</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>OSF</CodeIATA>
+    <CodeICAO>UUMO</CodeICAO>
+    <CodeInternal>ОСФ</CodeInternal>
+    <AirportClass>В</AirportClass>
+    <AirportName>Остафьево</AirportName>
+    <CityName>Москва</CityName>
+    <RegionName />
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>PEE</CodeIATA>
+    <CodeICAO>USPP</CodeICAO>
+    <CodeInternal>ПРЬ</CodeInternal>
+    <AirportClass>Б</AirportClass>
+    <AirportName>Пермь (Большое Савино)</AirportName>
+    <CityName>Пермь</CityName>
+    <RegionName>Пермский край</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>PES</CodeIATA>
+    <CodeICAO>ULPB</CodeICAO>
+    <CodeInternal>ПТБ</CodeInternal>
+    <AirportClass>В</AirportClass>
+    <AirportName>Петрозаводск (Бесовец)</AirportName>
+    <CityName>Петрозаводск</CityName>
+    <RegionName>Карелия</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>PKC</CodeIATA>
+    <CodeICAO>UHPP</CodeICAO>
+    <CodeInternal>ПРЛ</CodeInternal>
+    <AirportClass>А</AirportClass>
+    <AirportName>Петропавловск-Камчатский (Елизово)</AirportName>
+    <CityName>Петропавловск-Камчатский</CityName>
+    <RegionName>Камчатский край</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>PVS</CodeIATA>
+    <CodeICAO>UHMD</CodeICAO>
+    <CodeInternal>ПРД</CodeInternal>
+    <AirportClass>Г</AirportClass>
+    <AirportName>Провидения, Бухта</AirportName>
+    <CityName>Провидения</CityName>
+    <RegionName>Чукотский АО</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>PKV</CodeIATA>
+    <CodeICAO>ULOO</CodeICAO>
+    <CodeInternal>ПСК</CodeInternal>
+    <AirportClass>В</AirportClass>
+    <AirportName>Псков (Кресты)</AirportName>
+    <CityName>Псков</CityName>
+    <RegionName>Псковская область</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>ROV</CodeIATA>
+    <CodeICAO>URRP</CodeICAO>
+    <CodeInternal>РОВ</CodeInternal>
+    <AirportClass>Б</AirportClass>
+    <AirportName>Ростов-на-Дону (Платов)</AirportName>
+    <CityName>Ростов-на-Дону</CityName>
+    <RegionName>Ростовская область</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>SBT</CodeIATA>
+    <CodeICAO>USDA</CodeICAO>
+    <CodeInternal>СБТ</CodeInternal>
+    <AirportClass>Б</AirportClass>
+    <AirportName>Сабетта</AirportName>
+    <CityName>Сабетта</CityName>
+    <RegionName>Ямало-Ненецкий АО</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>KUF</CodeIATA>
+    <CodeICAO>UWWW</CodeICAO>
+    <CodeInternal>СКЧ</CodeInternal>
+    <AirportClass>Б-1</AirportClass>
+    <AirportName>Самара (Курумоч)</AirportName>
+    <CityName>Самара</CityName>
+    <RegionName>Самарская область</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>LED, RHV</CodeIATA>
+    <CodeICAO>ULLI</CodeICAO>
+    <CodeInternal>ПЛК</CodeInternal>
+    <AirportClass>А</AirportClass>
+    <AirportName>Санкт-Петербург (Пулково)</AirportName>
+    <CityName>Санкт-Петербург</CityName>
+    <RegionName />
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>SKX</CodeIATA>
+    <CodeICAO>UWPS</CodeICAO>
+    <CodeInternal>СРН</CodeInternal>
+    <AirportClass>В</AirportClass>
+    <AirportName>Саранск</AirportName>
+    <CityName>Саранск</CityName>
+    <RegionName>Мордовия</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>GSV</CodeIATA>
+    <CodeICAO>UWSG</CodeICAO>
+    <CodeInternal>СРО</CodeInternal>
+    <AirportClass>В</AirportClass>
+    <AirportName>Саратов (Гагарин)</AirportName>
+    <CityName>Саратов</CityName>
+    <RegionName>Саратовская область</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>SIP</CodeIATA>
+    <CodeICAO>UKFF</CodeICAO>
+    <CodeInternal>СИП</CodeInternal>
+    <AirportClass>Б</AirportClass>
+    <AirportName>Симферополь</AirportName>
+    <CityName>Симферополь</CityName>
+    <RegionName>Республика Крым</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>AER</CodeIATA>
+    <CodeICAO>URSS</CodeICAO>
+    <CodeInternal>СОЧ</CodeInternal>
+    <AirportClass>Б (горный)</AirportClass>
+    <AirportName>Сочи (Адлер)</AirportName>
+    <CityName>Сочи</CityName>
+    <RegionName>Краснодарский край</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>STW</CodeIATA>
+    <CodeICAO>URMT</CodeICAO>
+    <CodeInternal>СТВ</CodeInternal>
+    <AirportClass>В</AirportClass>
+    <AirportName>Ставрополь (Шпаковское)</AirportName>
+    <CityName>Ставрополь</CityName>
+    <RegionName>Ставропольский край</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>SGC</CodeIATA>
+    <CodeICAO>USRR</CodeICAO>
+    <CodeInternal>СУР</CodeInternal>
+    <AirportClass>Б</AirportClass>
+    <AirportName>Сургут</AirportName>
+    <CityName>Сургут</CityName>
+    <RegionName>ХМАО</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>SCW</CodeIATA>
+    <CodeICAO>UUYY</CodeICAO>
+    <CodeInternal>СЫВ</CodeInternal>
+    <AirportClass>В</AirportClass>
+    <AirportName>Сыктывкар</AirportName>
+    <CityName>Сыктывкар</CityName>
+    <RegionName>Коми</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>TOF</CodeIATA>
+    <CodeICAO>UNTT</CodeICAO>
+    <CodeInternal>ТСК</CodeInternal>
+    <AirportClass>В</AirportClass>
+    <AirportName>Томск (Богашёво)</AirportName>
+    <CityName>Томск</CityName>
+    <RegionName>Томская область</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>TJM</CodeIATA>
+    <CodeICAO>USTR</CodeICAO>
+    <CodeInternal>РЩН</CodeInternal>
+    <AirportClass>Б</AirportClass>
+    <AirportName>Тюмень (Рощино)</AirportName>
+    <CityName>Тюмень</CityName>
+    <RegionName>Тюменская область</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>UUD</CodeIATA>
+    <CodeICAO>UIUU</CodeICAO>
+    <CodeInternal>УЛЭ</CodeInternal>
+    <AirportClass>В</AirportClass>
+    <AirportName>Улан-Удэ (Мухино)</AirportName>
+    <CityName>Улан-Удэ</CityName>
+    <RegionName>Бурятия</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>ULV</CodeIATA>
+    <CodeICAO>UWLL</CodeICAO>
+    <CodeInternal>УЛК</CodeInternal>
+    <AirportClass>А</AirportClass>
+    <AirportName>Ульяновск (Баратаевка)</AirportName>
+    <CityName>Ульяновск</CityName>
+    <RegionName>Ульяновская область</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>ULY</CodeIATA>
+    <CodeICAO>UWLW</CodeICAO>
+    <CodeInternal>УЛС</CodeInternal>
+    <AirportClass>А-1</AirportClass>
+    <AirportName>Ульяновск (Восточный)</AirportName>
+    <CityName>Ульяновск</CityName>
+    <RegionName>Ульяновская область</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>UFA</CodeIATA>
+    <CodeICAO>UWUU</CodeICAO>
+    <CodeInternal>УФА</CodeInternal>
+    <AirportClass>А-2</AirportClass>
+    <AirportName>Уфа</AirportName>
+    <CityName>Уфа</CityName>
+    <RegionName>Башкортостан</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>KHV</CodeIATA>
+    <CodeICAO>UHHH</CodeICAO>
+    <CodeInternal>ХБР</CodeInternal>
+    <AirportClass>А</AirportClass>
+    <AirportName>Хабаровск (Новый)</AirportName>
+    <CityName>Хабаровск</CityName>
+    <RegionName>Хабаровский край</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>HMA</CodeIATA>
+    <CodeICAO>USHH</CodeICAO>
+    <CodeInternal>ХАС</CodeInternal>
+    <AirportClass>Б</AirportClass>
+    <AirportName>Ханты-Мансийск</AirportName>
+    <CityName>Ханты-Мансийск</CityName>
+    <RegionName>Ханты-Мансийский АО</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>CSY</CodeIATA>
+    <CodeICAO>UWKS</CodeICAO>
+    <CodeInternal>ЧБЕ</CodeInternal>
+    <AirportClass>В</AirportClass>
+    <AirportName>Чебоксары</AirportName>
+    <CityName>Чебоксары</CityName>
+    <RegionName>Чувашия</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>CEK</CodeIATA>
+    <CodeICAO>USCC</CodeICAO>
+    <CodeInternal>ЧЛБ</CodeInternal>
+    <AirportClass>Б</AirportClass>
+    <AirportName>Челябинск (Баландино)</AirportName>
+    <CityName>Челябинск</CityName>
+    <RegionName>Челябинская область</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>CEE</CodeIATA>
+    <CodeICAO>ULWC</CodeICAO>
+    <CodeInternal>ЧРВ</CodeInternal>
+    <AirportClass>В</AirportClass>
+    <AirportName>Череповец</AirportName>
+    <CityName>Череповец</CityName>
+    <RegionName>Вологодская область</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>HTA</CodeIATA>
+    <CodeICAO>UIAA</CodeICAO>
+    <CodeInternal>СХТ</CodeInternal>
+    <AirportClass>В</AirportClass>
+    <AirportName>Чита (Кадала)</AirportName>
+    <CityName>Чита</CityName>
+    <RegionName>Читинская область</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>ESL</CodeIATA>
+    <CodeICAO>URWI</CodeICAO>
+    <CodeInternal>ЭЛИ</CodeInternal>
+    <AirportClass>Б</AirportClass>
+    <AirportName>Элиста</AirportName>
+    <CityName>Элиста</CityName>
+    <RegionName>Калмыкия</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>UUS</CodeIATA>
+    <CodeICAO>UHSS</CodeICAO>
+    <CodeInternal>ЮЖХ</CodeInternal>
+    <AirportClass>А</AirportClass>
+    <AirportName>Южно-Сахалинск (Хомутово)</AirportName>
+    <CityName>Южно-Сахалинск</CityName>
+    <RegionName>Сахалинская область</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>YKS</CodeIATA>
+    <CodeICAO>UEEE</CodeICAO>
+    <CodeInternal>ЯКТ</CodeInternal>
+    <AirportClass>Б</AirportClass>
+    <AirportName>Якутск</AirportName>
+    <CityName>Якутск</CityName>
+    <RegionName>Якутия</RegionName>
+  </AirportInfo>
+  <AirportInfo>
+    <CodeIATA>IAR</CodeIATA>
+    <CodeICAO>UUDL</CodeICAO>
+    <CodeInternal>ЯРТ</CodeInternal>
+    <AirportClass>В</AirportClass>
+    <AirportName>Ярославль (Туношна)</AirportName>
+    <CityName>Ярославль</CityName>
+    <RegionName>Ярославская область</RegionName>
+  </AirportInfo>
+</ArrayOfAirportInfo>
